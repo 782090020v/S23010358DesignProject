@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">S23010358DesignProject</string>
+    <string name="welcome">WELCOME!!!!</string>
+    <string name="login">LOGIN</string>
+    <string name="visitor_management_system">VISITOR MANAGEMENT SYSTEM</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="signup">SIGNUP</string>
+    <string name="textview">TextView</string>
+    <string name="vms_main_dashboard">VMS MAIN DASHBOARD</string>
+    <string name="ticket_id">TICKET ID</string>
+    <string name="from">FROM</string>
+    <string name="to">TO</string>
+    <string name="status">STATUS</string>
+    <string name="things_to_do">THINGS TO DO</string>
+</resources>
