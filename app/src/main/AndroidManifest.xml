@@ -25,6 +25,11 @@
         <activity android:name=".SignupActivity"/>
         <activity android:name=".HomeActivity"/>
         <activity android:name=".RequestdashboardActivity"/>
+        <activity android:name=".RequestDashboardStep2Activity"/>
+        <activity android:name=".AddVisitorActivity"/>
+        <activity android:name=".OverallRequestFormActivity"/>
+        <activity android:name=".ApprovalDashboardActivity"/>
+        <activity android:name=".ApprovedWorkPermitActivity"/>
 
     </application>
 

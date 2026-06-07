@@ -6,15 +6,15 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class RequestdashboardActivity extends AppCompatActivity {
+public class AddVisitorActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_requestdashboard);
+        setContentView(R.layout.activity_add_visitor);
 
         Button btnNext = findViewById(R.id.btnNext);
         btnNext.setOnClickListener(v -> startActivity(
-                new Intent(RequestdashboardActivity.this, RequestDashboardStep2Activity.class)));
+                new Intent(AddVisitorActivity.this, OverallRequestFormActivity.class)));
     }
 }

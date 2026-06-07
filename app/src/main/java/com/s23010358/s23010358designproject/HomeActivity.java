@@ -2,27 +2,19 @@ package com.s23010358.s23010358designproject;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+import android.widget.TextView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_home);
 
+        TextView tabNewRequest = findViewById(R.id.L03);
+        tabNewRequest.setOnClickListener(v -> startActivity(
+                new Intent(HomeActivity.this, RequestdashboardActivity.class)));
     }
-
 }
-
-
-
-

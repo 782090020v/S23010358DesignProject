@@ -1,9 +1,93 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+
     <style name="Base.Theme.S23010358DesignProject" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
     </style>
 
     <style name="Theme.S23010358DesignProject" parent="Base.Theme.S23010358DesignProject" />
+
+    <!-- Splash / Welcome screen: full navy background -->
+    <style name="Theme.VMS.Splash" parent="Base.Theme.S23010358DesignProject">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="TextStyle" />
+
+    <style name="TextStyle.ScreenTitle">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="TextStyle.ScreenTitle.OnPrimary">
+        <item name="android:textColor">@color/colorTextOnPrimary</item>
+    </style>
+
+    <style name="TextStyle.Subtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorTextSecondary</item>
+    </style>
+
+    <style name="TextStyle.Subtitle.OnPrimary">
+        <item name="android:textColor">#BBDEFB</item>
+    </style>
+
+    <style name="TextStyle.SectionHeader">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.05</item>
+    </style>
+
+    <style name="TextStyle.TableHeader">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/colorTextOnPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>
+
+    <!-- Button styles -->
+    <style name="ButtonStyle" />
+
+    <style name="ButtonStyle.Primary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="ButtonStyle.Outline">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:background">@drawable/bg_button_outline</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <!-- EditText / Input style -->
+    <style name="InputStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:background">@drawable/bg_input_field</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textColorHint">@color/colorTextHint</item>
+    </style>
+
 </resources>

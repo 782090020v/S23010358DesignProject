@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Brand -->
+    <color name="colorPrimary">#1A237E</color>
+    <color name="colorPrimaryDark">#000051</color>
+    <color name="colorPrimaryLight">#534BAE</color>
+    <color name="colorAccent">#00BCD4</color>
+    <color name="colorAccentDark">#0097A7</color>
+
+    <!-- Backgrounds -->
+    <color name="colorBackground">#EEF2F7</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorInputBackground">#F5F8FB</color>
+
+    <!-- Text -->
+    <color name="colorTextPrimary">#1A1A2E</color>
+    <color name="colorTextSecondary">#546E7A</color>
+    <color name="colorTextHint">#90A4AE</color>
+    <color name="colorTextOnPrimary">#FFFFFF</color>
+
+    <!-- Status badges -->
+    <color name="colorStatusPending">#FF9800</color>
+    <color name="colorStatusApproved">#4CAF50</color>
+    <color name="colorStatusRejected">#F44336</color>
+    <color name="colorStatusLive">#2196F3</color>
+
+    <!-- UI -->
+    <color name="colorDivider">#D8E3EE</color>
+    <color name="colorInputBorder">#CFD8DC</color>
+    <color name="colorCardStroke">#E3EAF4</color>
+
+    <!-- Legacy -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

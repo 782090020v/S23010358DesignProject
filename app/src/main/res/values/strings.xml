@@ -1,16 +1,133 @@
 <resources>
-    <string name="app_name">S23010358DesignProject</string>
-    <string name="welcome">WELCOME!!!!</string>
-    <string name="login">LOGIN</string>
-    <string name="visitor_management_system">VISITOR MANAGEMENT SYSTEM</string>
-    <string name="enter_your_username">Enter your username</string>
-    <string name="enter_your_password">Enter your password</string>
-    <string name="signup">SIGNUP</string>
+    <string name="app_name">VMS</string>
+
+    <!-- Welcome / Main -->
+    <string name="welcome">Welcome</string>
+    <string name="visitor_management_system">Visitor Management System</string>
+    <string name="welcome_subtitle">Secure. Efficient. Transparent.</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Login -->
+    <string name="login">Login</string>
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to your account</string>
+    <string name="enter_your_username">Username</string>
+    <string name="enter_your_password">Password</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="sign_up_link">Sign Up</string>
+
+    <!-- Signup -->
+    <string name="signup">Sign Up</string>
+    <string name="signup_title">Create Account</string>
+    <string name="signup_subtitle">Register as a visitor</string>
+    <string name="hint_full_name">Full Name with Initials</string>
+    <string name="hint_nic">NIC Number</string>
+    <string name="hint_organization">Organization</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="login_link">Login</string>
+
+    <!-- Home Dashboard -->
+    <string name="vms_main_dashboard">VMS Dashboard</string>
+    <string name="things_to_do">Pending Requests</string>
+    <string name="live_work_permits">Live Work Permits</string>
+    <string name="ticket_id">Ticket ID</string>
+    <string name="location">Location</string>
+    <string name="work_type">Work Type</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="request_status">Status</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_new_request">New Request</string>
+    <string name="nav_admin">Admin</string>
+    <string name="status_pending">Pending</string>
+    <string name="no_records">No records found</string>
+
+    <!-- Request Dashboard -->
+    <string name="access_request_portal">Access Request Portal</string>
+    <string name="request_subtitle">Submit a new visitor access request</string>
+    <string name="hint_location">Location / Area</string>
+    <string name="hint_work_type">Type of Work</string>
+    <string name="hint_purpose">Purpose of Visit</string>
+    <string name="hint_start_date">Start Date (DD/MM/YYYY)</string>
+    <string name="hint_end_date">End Date (DD/MM/YYYY)</string>
+    <string name="submit_request">Submit Request</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Misc -->
     <string name="textview">TextView</string>
-    <string name="vms_main_dashboard">VMS MAIN DASHBOARD</string>
-    <string name="ticket_id">TICKET ID</string>
     <string name="from">FROM</string>
     <string name="to">TO</string>
     <string name="status">STATUS</string>
-    <string name="things_to_do">THINGS TO DO</string>
+
+    <!-- Nav -->
+    <string name="nav_access_request">Access Request</string>
+
+    <!-- Request Form Step 1 -->
+    <string name="request_form_title">REQUEST FORM</string>
+    <string name="hint_requester">Requester</string>
+    <string name="hint_responsible_person">Responsible Person</string>
+    <string name="hint_access_start">Access Start (DD/MM/YYYY)</string>
+    <string name="hint_access_end">Access End (DD/MM/YYYY)</string>
+    <string name="work_type_label">Work Type</string>
+    <string name="work_new_installation">New Installation</string>
+    <string name="work_meeting">Meeting</string>
+    <string name="work_service">Service</string>
+    <string name="work_removals">Removals</string>
+    <string name="work_adhoc">Adhoc Maintenance</string>
+    <string name="work_planned_event">Planned Event</string>
+    <string name="btn_next">Next</string>
+
+    <!-- Request Form Step 2 -->
+    <string name="hint_division">Division</string>
+    <string name="hint_work_description">Work Description</string>
+    <string name="btn_add_visitor">ADD VISITOR</string>
+
+    <!-- Add Visitor -->
+    <string name="add_visitor_title">ADD VISITOR</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_nic_no">NIC No</string>
+    <string name="hint_company">Company</string>
+    <string name="hint_vehicle_no">Vehicle No</string>
+    <string name="hint_contact_no">Contact No</string>
+    <string name="btn_update">UPDATE</string>
+    <string name="col_name">Name</string>
+    <string name="col_company">Company</string>
+    <string name="col_nic">NIC</string>
+    <string name="col_contact">Contact</string>
+
+    <!-- Overall Request Form -->
+    <string name="overall_request_form">OVERALL REQUEST FORM</string>
+    <string name="approval_request">APPROVAL REQUEST</string>
+    <string name="btn_cancel_request">CANCEL REQUEST</string>
+    <string name="btn_submit">Submit</string>
+
+    <!-- Approval Dashboard -->
+    <string name="approval_dashboard">APPROVAL DASHBOARD</string>
+    <string name="btn_reject">REJECT</string>
+    <string name="btn_view_ticket">VIEW TICKET</string>
+    <string name="btn_approve">APPROVE</string>
+
+    <!-- Approved Work Permit -->
+    <string name="approved_work_permit">APPROVED WORK PERMIT</string>
+    <string name="work_permit_id_label">Work Permit ID</string>
+    <string name="dummy_permit_id">WP-2024-0042</string>
+
+    <!-- Dummy visitor row -->
+    <string name="dummy_visitor_name">Giacomo Guiliz</string>
+    <string name="dummy_visitor_company">ABC PVT</string>
+    <string name="dummy_visitor_nic">7876345</string>
+    <string name="dummy_visitor_contact">777XXXXXX</string>
+
+    <!-- Summary field labels -->
+    <string name="label_requester">Requester</string>
+    <string name="label_responsible_person">Responsible Person</string>
+    <string name="label_access_start">Access Start</string>
+    <string name="label_access_end">Access End</string>
+    <string name="label_work_type">Work Type</string>
+    <string name="label_division">Division</string>
+    <string name="label_work_description">Work Description</string>
+    <string name="label_work_permit_id">Work Permit ID</string>
 </resources>
