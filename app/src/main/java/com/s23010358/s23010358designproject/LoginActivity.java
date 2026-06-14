@@ -42,10 +42,10 @@ public class LoginActivity extends AppCompatActivity {
 
         // Check if user is already logged in
         FirebaseUser currentUser = mAuth.getCurrentUser();
-        if (currentUser != null) {
-            navigateToHome(currentUser.getUid());
-            return;
-        }
+//        if (currentUser != null) {
+//            navigateToHome(currentUser.getUid());
+//            return;
+//        }
 
         // Login Button
         btnLogin.setOnClickListener(new View.OnClickListener() {

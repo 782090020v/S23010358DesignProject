@@ -58,7 +58,7 @@
                 android:letterSpacing="0.02" />
 
             <EditText
-                android:id="@+id/S02"
+                android:id="@+id/etName"
                 style="@style/InputStyle"
                 android:hint="@string/hint_full_name"
                 android:inputType="textPersonName"
@@ -66,7 +66,7 @@
                 android:singleLine="true" />
 
             <EditText
-                android:id="@+id/S03"
+                android:id="@+id/etNicNo"
                 style="@style/InputStyle"
                 android:layout_marginTop="14dp"
                 android:hint="@string/hint_nic"
@@ -75,7 +75,7 @@
                 android:singleLine="true" />
 
             <EditText
-                android:id="@+id/S04"
+                android:id="@+id/etOrganization"
                 style="@style/InputStyle"
                 android:layout_marginTop="14dp"
                 android:hint="@string/hint_organization"
@@ -84,7 +84,7 @@
                 android:singleLine="true" />
 
             <EditText
-                android:id="@+id/S05"
+                android:id="@+id/etEmail"
                 style="@style/InputStyle"
                 android:layout_marginTop="14dp"
                 android:hint="@string/hint_email"
@@ -93,7 +93,7 @@
                 android:singleLine="true" />
 
             <EditText
-                android:id="@+id/S06"
+                android:id="@+id/etUsername"
                 style="@style/InputStyle"
                 android:layout_marginTop="14dp"
                 android:hint="@string/hint_username"
@@ -102,7 +102,7 @@
                 android:singleLine="true" />
 
             <EditText
-                android:id="@+id/S07"
+                android:id="@+id/etPassword"
                 style="@style/InputStyle"
                 android:layout_marginTop="14dp"
                 android:hint="@string/hint_password"
@@ -110,8 +110,16 @@
                 android:imeOptions="actionDone"
                 android:singleLine="true" />
 
+            <EditText
+                android:id="@+id/etRepeatPassword"
+                style="@style/InputStyle"
+                android:layout_marginTop="14dp"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:imeOptions="actionDone"
+                android:singleLine="true" />
             <Button
-                android:id="@+id/btn4"
+                android:id="@+id/btnSignUpOriginal"
                 style="@style/ButtonStyle.Primary"
                 android:layout_marginTop="24dp"
                 android:text="@string/signup" />

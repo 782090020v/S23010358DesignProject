@@ -42,6 +42,8 @@ dependencies {
     implementation("androidx.activity:activity:1.8.2")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation(libs.firebase.auth)
+    implementation("com.google.firebase:firebase-firestore")
+    implementation(libs.firebase.firestore)
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
