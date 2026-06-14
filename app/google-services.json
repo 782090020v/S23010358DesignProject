@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "674486847795",
+    "project_id": "vmsauth-c909e",
+    "storage_bucket": "vmsauth-c909e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674486847795:android:993b49238ae38572ca1646",
+        "android_client_info": {
+          "package_name": "com.s23010358.s23010358designproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMmDWAveU0yALl5fR_tVSEBpRBX1Fowts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
