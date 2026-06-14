@@ -63,7 +63,7 @@
             android:letterSpacing="0.02" />
 
         <EditText
-            android:id="@+id/editTextText"
+            android:id="@+id/txtUsername"
             style="@style/InputStyle"
             android:hint="@string/enter_your_username"
             android:inputType="text"
@@ -72,7 +72,7 @@
             android:singleLine="true" />
 
         <EditText
-            android:id="@+id/editTextText2"
+            android:id="@+id/txtPassword"
             style="@style/InputStyle"
             android:layout_marginTop="14dp"
             android:hint="@string/enter_your_password"
@@ -82,7 +82,7 @@
             android:singleLine="true" />
 
         <Button
-            android:id="@+id/btn2"
+            android:id="@+id/btnLogin"
             style="@style/ButtonStyle.Primary"
             android:layout_marginTop="24dp"
             android:text="@string/login" />
@@ -102,7 +102,7 @@
                 android:textColor="@color/colorTextSecondary" />
 
             <Button
-                android:id="@+id/btn3"
+                android:id="@+id/btnSignUp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/sign_up_link"
