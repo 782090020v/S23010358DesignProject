@@ -185,12 +185,8 @@
                 android:inputType="phone"
                 android:singleLine="true" />
 
-            <!-- Next Button -->
-            <Button
-                android:id="@+id/btnNext"
-                style="@style/ButtonStyle.Primary"
-                android:layout_marginTop="24dp"
-                android:text="@string/btn_next" />
+
+
 
         </LinearLayout>
 
@@ -258,14 +254,10 @@
 
             <!-- Dummy Data Row -->
             <LinearLayout
+                android:id="@+id/visitorTableBody"
                 android:layout_width="match_parent"
-                android:layout_height="44dp"
-                android:background="#FAFCFF"
-                android:gravity="center_vertical"
-                android:orientation="horizontal"
-                android:paddingStart="8dp"
-                android:paddingEnd="8dp">
-
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -339,5 +331,4 @@
             </LinearLayout>
         </LinearLayout>
 
-    </LinearLayout>
-</ScrollView>
+    </ScrollView>
